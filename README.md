@@ -2,7 +2,8 @@
 ### 주말 외 매일 업로드 할 것!
 ### 시작은 미미하나 끝은 창대하리라!
 
-#20211221{
+## 20211221
+{
 ### flask로 프론트엔드와 백엔드 둘다 지원하기: jinja2 template
 
 +jinja2 템플릿: 
@@ -75,7 +76,8 @@
 }
 
 
-20211219{
+## 20211219
+{
 +VSCode:터미널 powershell 오류
 
 +vscode: 계속 OUTPUT에서 출력됨, Extenstion > Run Code Configuration >Run In Terminal 설정, 항상 터미널로 실행되도록 변경
@@ -118,7 +120,8 @@ http GET http://localhost:8081/login?user_name=dave&pw=111&email_address=korea@g
 
 
 17일 실수로 못올림
-20211217{
+## 20211217
+{
 +라우팅 기법
 +/<인자> 로 해서 새로운 주소 및 리턴값 생성 가능
 +<인자>값의 데이터 타입 지정 가능
@@ -181,7 +184,7 @@ def server_json():
 }
 
 
-20211216
+## 20211216
 {
 + WWW 와 관련 있는 것: HTML(데이터), URL(주소), HTTP(통신)
 + 라우팅: 적절한 목적지를 찾아줌(URL)
@@ -193,7 +196,7 @@ def server_json():
 
 
 
-20211215
+## 20211215
 {
 + 백엔드: 로직 + 데이터베이스 관리 + 웹서버 관리
 + 프론트엔드: 웹페이지 틀 & 구성 제작
