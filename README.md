@@ -78,25 +78,25 @@ html 코드, 페이지 리턴 = 경로 라고 표현
 
 ## 20211219
 {
-+VSCode:터미널 powershell 오류
+VSCode:터미널 powershell 오류
 
-+vscode: 계속 OUTPUT에서 출력됨, Extenstion > Run Code Configuration >Run In Terminal 설정, 항상 터미널로 실행되도록 변경
+vscode: 계속 OUTPUT에서 출력됨, Extenstion > Run Code Configuration >Run In Terminal 설정, 항상 터미널로 실행되도록 변경
 
 ### 프론트엔드와 백엔드 flask로 한번에 구현
 
  
 
-+request.args.get(파라미터 변수)
+request.args.get(파라미터 변수)
 
-+HTTP 요청 → 여러개 파라미터 보냄 → (파라미터 이름 알음) = request.args.get 함수로 해당 값을 가져올 수 있음
+HTTP 요청 → 여러개 파라미터 보냄 → (파라미터 이름 알음) = request.args.get 함수로 해당 값을 가져올 수 있음
 
-+주소에서 ?~~~~~ 이 부분
+주소에서 ?~~~~~ 이 부분
 
-+리턴 jsonify(data) → 프론트엔드에서 받음
+리턴 jsonify(data) → 프론트엔드에서 받음
 
-+주소의 ? 이후는 파라미터이다
+주소의 ? 이후는 파라미터이다
 
-+아나콘다 프롬트 에서 REST API 잘 작동하는지 확인하기(GET방식)
+아나콘다 프롬트 에서 REST API 잘 작동하는지 확인하기(GET방식)
 
 http GET http://localhost:8081/login?user_name=dave&pw=111&email_address=korea@gmail.com
 
@@ -104,17 +104,17 @@ http GET http://localhost:8081/login?user_name=dave&pw=111&email_address=korea@g
 
 **form** method, action 버튼 누룬 후 반응(ex. 페이지 요청), input type,
 
-+go live 하면 편하지만 임시 주소를 줘서 기존 8081과 만들어진 5050으로 달라질 수 있으니 action에서 자세히 주소를 설정해서 성공해라
+go live 하면 편하지만 임시 주소를 줘서 기존 8081과 만들어진 5050으로 달라질 수 있으니 action에서 자세히 주소를 설정해서 성공해라
 
 ---
 
 ### flask 로 정적 웹페이지 로드하기 (프론트엔드 페이지도 flask로 보여줄 수 있음)
 
-+flask render_template(HTML파일명):HTML파일전송 + HTML파일은 flask 가 실행되는 하위폴더인 templates폴더 안에 위치 해야함
+flask render_template(HTML파일명):HTML파일전송 + HTML파일은 flask 가 실행되는 하위폴더인 templates폴더 안에 위치 해야함
 
-+Bootstrap 활용
+Bootstrap 활용
 
-+app 객체에 static의 path 추가하기
+app 객체에 static의 path 추가하기
 
 }
 
@@ -122,17 +122,17 @@ http GET http://localhost:8081/login?user_name=dave&pw=111&email_address=korea@g
 17일 실수로 못올림
 ## 20211217
 {
-+라우팅 기법
-+/<인자> 로 해서 새로운 주소 및 리턴값 생성 가능
-+<인자>값의 데이터 타입 지정 가능
+라우팅 기법
+/<인자> 로 해서 새로운 주소 및 리턴값 생성 가능
+<인자>값의 데이터 타입 지정 가능
 
-+flask로 REST API 만들기
+flask로 REST API 만들기
 
-+데코레이터로 만들기?
+데코레이터로 만들기?
 
-+마이크로 서비스
+마이크로 서비스
 
-+데이터 ⇒ CRUD!
+데이터 ⇒ CRUD!
 
 1. HTTP 프로토콜 
 2. → 4가지 HTTP method 
@@ -141,36 +141,36 @@ http GET http://localhost:8081/login?user_name=dave&pw=111&email_address=korea@g
 5. 컴퓨터 간에 데이터 교환 및 컴퓨터 분산
 6. 상용화된 서비스 제작
 
-+JSON형식이 뭐지?
+JSON형식이 뭐지?
 
-+JSON format : 파이썬에 있는 사전 데이터 타입과 동일함
+JSON format : 파이썬에 있는 사전 데이터 타입과 동일함
 
-+REST API로 데이터를 주고 받음 → 데이터를 주고 받음 = 포맷이 필요함, 그 포맷이 JSON 포맷 
+REST API로 데이터를 주고 받음 → 데이터를 주고 받음 = 포맷이 필요함, 그 포맷이 JSON 포맷 
 
-+JSON 형태로 데이터를 보내고 받아 처리
+JSON 형태로 데이터를 보내고 받아 처리
 
-+짝궁: REST API & JSON 포맷
+짝궁: REST API & JSON 포맷
 
-+httpie 설치
+httpie 설치
 
-+백엔드 서비스 구현 = 여러가지 REST API 만들기 + REST API 수시로 테스트 하기 
+백엔드 서비스 구현 = 여러가지 REST API 만들기 + REST API 수시로 테스트 하기 
 
-+테스트 할때마다 [ 웹서버 띄우기 + 웹브라우저 접속 + 데이터 보기 ] ⇒ 어휴 비효율적
+테스트 할때마다 [ 웹서버 띄우기 + 웹브라우저 접속 + 데이터 보기 ] ⇒ 어휴 비효율적
 
-+간단한 명령으로 REST API가 정상적으로 동작 및 응답 확인
+간단한 명령으로 REST API가 정상적으로 동작 및 응답 확인
 
-+터미널 상태 익숙해져야함
+터미널 상태 익숙해져야함
 
-+httpie 사용법
-+http 명령 + http 메서드 + URL/URI (주소)
+httpie 사용법
+http 명령 + http 메서드 + URL/URI (주소)
 
-+예시)
+예시)
 
 ```python
 http GET http://localhost:8081/json_test
 ```
 
-+flask jsonify() 함수: 리턴 데이터를 JSON 포맷으로 제공
+flask jsonify() 함수: 리턴 데이터를 JSON 포맷으로 제공
 
 ```python
 from flask import Flask, jsonify
