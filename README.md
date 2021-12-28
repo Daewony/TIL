@@ -6,6 +6,11 @@
 {
 공부하고 전날에 깃헙안올렸다 
 
+JS 문제
+Cannot read properties of undefined 문제 발생
+왜? =>
+
+
 }
 
 ## 20211227
